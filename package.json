@@ -1,0 +1,11 @@
+{
+  "name": "TesT-dev-STARWARS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sellamii/StarWars.git",
+  "author": "Sellami zied <sellamizied9@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "simple-parallax-js": "^5.6.2"
+  }
+}
