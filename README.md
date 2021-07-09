@@ -10,5 +10,6 @@ $ npm i
 ```
 And then start the development server:
 ```bash
+npm install --global http-server
 $ http-server
 ```
