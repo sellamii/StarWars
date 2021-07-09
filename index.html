@@ -39,8 +39,8 @@
 
    
     <!--========== section introduction ==========-->
-    <section id="intro" class="text-white">
-        <div class="bg-intro w-100 h-100">
+    <section id="intro" class="text-white ">
+        <div class="bg-intro w-100 h-100 ">
             <header class="container-fluid">
                 <div class="d-flex container flex-row py-5 justify-content-between align-items-center">
                     <nav class="navbar fixed-top justify-content-center">
@@ -110,7 +110,7 @@
 
                 </div>
 
-                <div class="t20  col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-not-r p-not">
+                <div class="t20 img1  col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-not-r p-not">
                     <img src="Assets/Assets/ad.jpg">
                 </div>
             </div>
@@ -123,7 +123,7 @@
     <section id="kiloren" class="container-fluid text-white px-0 d-flex flex-column">
 
         <div class="masonry">
-            <img src="Assets/Assets/kiloren.jpg">
+            <img  src="Assets/Assets/kiloren.jpg" class="thumbnail">
         </div>
 
     </section>
@@ -137,7 +137,7 @@
         <div class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row  justify-content-center pt-3 ">
 
             <div class="t20  col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3  ">
-                <img  src="Assets/Assets/r2d2_c3p0.jpg">
+                <img  src="Assets/Assets/r2d2_c3p0.jpg" class="thumbnail">
             </div>
             <div class="t14 cambay col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
 
@@ -250,12 +250,15 @@
             </footer>
         </div>
     </section>
+    <script>
+        const img1 = document.querySelectorAll('img');
+new simpleParallax(img1,{
+            delay: .6,
+	transition: 'cubic-bezier(0,0,0,1)'
+        });
+      
+    </script>
 </body>
 
 </html>
 
-<script>
-    import simpleParallax from 'simple-parallax-js';
-    const images = document.querySelectorAll('img');
-    new simpleParallax(images);
-</script>
